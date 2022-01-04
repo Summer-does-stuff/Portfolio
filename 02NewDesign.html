@@ -1,0 +1,879 @@
+
+<!DOCTYPE HTML>
+<html>
+
+
+
+<head>  
+<title>Line New Design</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="./css/NewDesign.css" />
+<link rel="stylesheet" href="./css/Header.css" />
+<link rel="stylesheet" href="./css/About.css" />
+<link rel="stylesheet" href="./css/Index.css" />
+</head>
+
+
+
+<body>
+
+    
+<!--header header header-->
+
+<div class="headerLDS">
+  
+   
+    <div class="headerNav">
+
+
+        <!--로고-->
+        <div class="headerLogo">
+          <a href="00Index.html">
+                  <div class="headerLogo__Fake"></div>
+             </a>
+         <img src="./imageFolder/svgTest.svg">
+     </div>
+ 
+
+        <div class="headerNav__left">
+
+            <a href="01PDS.html">
+            <div class="headerNav__leftFake"></div>
+            </a>
+
+            <img src="./imageFolder/toTheLeft.svg">
+        </div>
+
+
+
+
+
+        <div class="headerNav__right">
+            
+            
+            <a href="03LDS.html">
+                <div class="headerNav__rightFake"></div>
+                </a>
+    
+            <img src="./imageFolder/toTheRight.svg">
+            
+            
+        </div>
+    </div>
+   
+</div>
+
+
+
+
+
+
+
+
+
+<!--about-->
+<div class="aboutProject">
+<div class="aboutProject__title"><p>About</p></div>
+<div class="aboutProject__description"><p>LINE is a Japan-based, crossed-platform mobile messenger app with about 84 milion monthly active users in its home market as of 2020.</p></div>
+</div>
+
+
+
+
+<!--about - Role and Platform-->
+<div class="roleAndPlatform">
+    <div class="roleAndPlatform__left">
+        <p>My Role</p>
+        Overall 30%<br>
+        UX Concept proposal<br>
+        Prototyping&Survay<br>
+        Spec documentation<br>
+        UI design<br>
+        Design QA<br>
+
+    </div>
+    <div class="roleAndPlatform__right">
+        <p>Platform</p>
+        AndroidOS
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!--여기서부터 내용-->
+<!--여기서부터 내용-->
+<!--여기서부터 내용-->
+<!--여기서부터 내용-->
+<!--여기서부터 내용-->
+
+
+
+
+</body>
+</html>
+
+
+
+<!--Cover-->
+
+
+
+<div class="coverNew">
+
+    <div class="body678">
+        라인은 Crossed-platform 모바일 메신저 앱으로, 2020년 기준 84million의
+        Monthly Active 유저를 보유한 글로벌 서비스 입니다. 
+    </div>
+
+    <div id="turningLine">
+        <img src="./imageFolder/NewDesign/LDS-Image-01.gif" id="turningLineGif">
+    </div>
+
+    <div class="body678">
+        이 프로젝트는 라인의 전체적인 디자인을 개편하는 일명 ‘New Design Project’로 2020년 시작 되었습니다.
+        8년만에 이루어진 라인 전체 디자인 개편 이었으며, Kick-off 미팅에 KR+Gloabal office 실무자 및 이해관계자
+        300여 명이 모일 정도의 규모가 큰 프로젝트 였습니다. 
+        <!--Line Design System(LDS)과 같이 또 따로 진행된 프로젝트로, 
+        LDS에서 미리 정의된 컴포넌트를 적용시키기도 하고 반대로 New Design에서 개편한 디자인을 LDS로 Contribute하기도 하는 구조 였습니다.-->
+    </div>
+
+</div>
+
+
+<div class="spacingL"></div>
+
+
+
+<!--The Background-->
+
+<div class="backgroundNew">
+
+    <div class="body678">
+        <h1>The Background</h1>
+    </div>
+
+    <div class="spacingS"></div>
+
+        
+    <div class="body678">
+        <p>Life on LINE이라는 슬로건을 필두로 라인 메신저는 메신저 기능 뿐만 아니라 페이, 뮤직, 쇼핑등
+            라이프스타일 전반을 관여하는 다양한 패밀리 서비스의 구심점이 되며 꾸준히 확장 되고 있었습니다.
+            계속해서 추가되고 연계되는 컨텐츠로 인해 상대적으로 정보의 가독성이 떨어지고 컨텐츠에 대한 집중도가 낮아지며
+            구조적으로는 점점 더 복잡하고 무거운 서비스가, 시각적으로는 아이덴티티가 희미한 서비스가 되어가고 있었습니다.</p>
+    </div>
+    <div class="spacingS"></div>
+
+    <!--슬라이더-->
+
+    <div class="ImageSlider">
+
+            
+        <div class="container">
+
+
+            <div class="inner">
+                <div id="innerGIF">
+                    <img src="./imageFolder/NewDesign/LDS-Image-02-slider01-inner.gif" id="innerGIFimage">
+                </div>
+                <img src="imageFolder/NewDesign/LDS-Image-02-slider01.png">
+            </div>
+
+
+            <div class="inner">
+                <img src="imageFolder/NewDesign/LDS-Image-02-slider02.png">
+            </div>
+
+
+            <div class="inner">
+                <img src="imageFolder/NewDesign/LDS-Image-02-slider03.png">
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <div class="imageSliderButton">
+        <button class="button1">●</button>
+        <button class="button2">●</button>
+        <button class="button3">●</button>
+    </div>
+
+
+    <script>
+
+
+        document.querySelector('.button1').addEventListener('click', function(){
+            document.querySelector('.container').style.transform = 'translate(0px)';
+            document.querySelector('.button1').style.opacity = '100%';
+            document.querySelector('.button2').style.opacity = '20%';
+            document.querySelector('.button3').style.opacity = '20%';
+
+            document.querySelector('#innerGIF').style.opacity = '100%';
+            document.querySelector('#innerGIF').style.bottom = '-412px';
+           
+        
+        }); 
+        
+        
+        document.querySelector('.button2').addEventListener('click', function(){
+            document.querySelector('.container').style.transform = 'translate(-678px)';
+            document.querySelector('#innerGIF').style.transform = 'translate(-678px)';
+            document.querySelector('.button1').style.opacity = '20%';
+            document.querySelector('.button2').style.opacity = '100%';
+            document.querySelector('.button3').style.opacity = '20%';
+            
+            document.querySelector('#innerGIF').style.opacity = '0%';
+        
+        }); 
+        
+        
+        
+        document.querySelector('.button3').addEventListener('click', function(){
+            document.querySelector('.container').style.transform = 'translate(-1356px)';
+            document.querySelector('.button1').style.opacity = '20%';
+            document.querySelector('.button2').style.opacity = '20%';
+            document.querySelector('.button3').style.opacity = '100%';
+        
+            document.querySelector('#innerGIF').style.opacity = '0%';
+        }); 
+        
+        
+        </script>
+
+
+
+<!--슬라이더 끝-->
+
+
+
+<div class="body678">
+    <p class="captionText">이미지1 - 서비스의 Navigation color가 화면에 따라 다 달랐던 모습</p>
+    <p class="captionText">이미지2 - Tab별로 통일되어 있지 않았던 컨텐츠 모듈</p>
+    <p class="captionText">이미지3 - 페이지별로 라인의 브랜드가 잘 드러나지 않음</p>
+</div>
+
+
+<div class="spacingL"></div>
+
+
+
+    <div class="body678">
+    <img src="./imageFolder/NewDesign/LDS-Image-03.png" class="image678">
+    </div>
+
+    <div class="body678">
+        <p>실제로 일본,태국,대만,인도네시아,한국 유저 300여명을 대상으로 한 서베이 결과
+            라인 앱은 구조가 복잡하고 일관성 없으며, 성능면에 느리고 또 매력적이지 않은 디자인을
+            가지고 있다는 응답이 있었습니다.</p>
+    </div>
+
+   
+    
+</div>
+
+
+<div class="spacingL"></div>
+
+
+<!--Benefits-->
+
+<div class="benefitsNew">
+
+    <div class="body678">
+
+    <h2>How we started?</h2>
+    <div class="spacingS"></div>
+
+    <div>
+        <img src="./imageFolder/NewDesign/LDS-Image-04.png" class="image678">
+    </div>
+    
+    <div class="spacingS"></div>
+
+    <p>내부에서 이런 문제 의식을 공유 하고 있었음에도 오랜 시간 개편이 이루어질 수 없었던 이유는
+        이 프로젝트를 통해 얻을 수 있는 이익에 대한 설득력이 충분하지 않았기 때문입니다.
+        우리는 이 프로젝트가 단순히 새로운 룩으로 디자인을 변경하는 것 이상으로 회사에 어떤 이익을
+        안겨줄 수 있을지 다양한 측면에서 명확히 정의 하여 이해 관계자를 설득할 수 있었고
+        마침내 8년 만의 개편 프로젝트가 시작될 수 있었습니다.  </p>
+    <div class="spacingS"></div>
+    <ul>
+        <li>● Buisness side / for Company<br>
+            New design의 큰 개선 방향성이 LINE의 사업 방향성과 맞닿도록 얼라인 시킨다.
+            LINE이 Life Platform으로 성장하며 다양한 서비스와 컨텐츠를 담는 그릇이 될 수 있도록
+            불필요한 요소들을 덜어내고 유저들에게 더 많은 컨텐츠를 효과적으로 노출한다.
+            <div class="spacingS"></div>
+        </li>
+        
+        <li>● Product side / for User<br>
+            파편화된 UI를 통일하여 서비스의 일관성을 갖추고 제품 전반의 사용 경험을 끌어올려
+            사용자에게 LINE 브랜드의 이미지를 긍정적인 방향으로 개선한다.  
+            <div class="spacingS"></div>
+        </li>
+        
+        <li>● Project side / for Us<br>
+            New Design Project를 디자인 시스템 전면 적용의 시발점으로 만든다.
+            이를 통해 프로젝트 멤버들이 반복적인 업무나 의사결정을 위해 소모하는 시간을 줄이고 프로젝트 전략에
+            더 힘을 쏟을 수 있는 환경을 구축한다.
+            <div class="spacingS"></div>
+        </li>
+    </ul>
+
+    </div>
+    
+</div>
+
+
+<div class="spacingL"></div>
+
+
+<!--Early Test-->
+<div class="earlyTestNew">
+
+    <div class="earlyTestNew__01">
+
+        <div class="body678">
+            <h1>Early Approach/Iteration</h1>
+            <div class="spacingM"></div>
+        </div>
+
+        <div class="earlyTest__home">
+            <img src="./imageFolder/NewDesign/LDS-Image-05-1.png" class="image978">
+        </div>
+        <div class="earlyTest__chat">
+            <img src="./imageFolder/NewDesign/LDS-Image-05-2.png" class="image978">
+        </div>
+
+        <div class="body678">
+            <p>초반에는 서비스의 UX를 완전히 개선하는 방향으로 이터레이션이 진행 되었습니다.
+                패밀리 서비스와 연계되는 다양한 컨텐츠를 Home 화면에 적극적으로 노출하고,
+                조금 더 유저 개개인의 사용 패턴을 기반으로한 맞춤화된 컨텐츠를 제공하는 방향이었지요.
+                채팅룸에서도 우리의 브랜드 컬러가 더 잘 보일 수 있는 그린을 적극적으로 녹여내며
+                기존에 없던 새롭고 재미있는 대화 경험을 제공하는 방향으로 제안 했습니다.</p>
+        </div>
+    </div>
+
+
+
+    <div class="spacingL"></div>
+
+
+
+
+    <div class="earlyTestNew__02">
+
+        <div>
+            <img src="./imageFolder/NewDesign/LDS-Image-06.png" class="image978">
+        </div>
+         
+        <div class="body678">
+            <p class="captionText">TV,영화,게임등에 송출된 라인의 이미지</p>
+            <div class="spacingS"></div>
+            <p>하지만 8년이라는 세월동안 이미 유저들에게 각인된 라인의 이미지가 있었습니다.
+                라인은 매일 가까운 사람들과 감정을 주고받는 메신저로, 유저가 라인 앱에 가지고 있는
+                감성적인 어태치먼트를 해하지 않는 변화를 만드는 것이 중요했습니다
+                단번에 너무 큰 변화를 만드는 것보다 채팅룸등 아이코닉한 디자인은 살리되 유저가
+                쉽게 받아들일 수 있는 영역을 우선으로 가볍고 진보적인 변화를 만드는 방향으로
+                프로젝트의 방향성이 잡히게 되었습니다. </p>
+        </div>
+        
+
+    </div>
+
+
+    <div class="spacingL"></div>
+    
+</div>
+
+
+
+<!--Final Approach-->
+<div class="approachNew">
+
+    <div class="body678" id="approachNewKeywordGrid">
+
+        <div class="approach__leftText">
+            We Keep our Legacy,<br>
+            But Moving forward</div>
+        <div class="approach__rightText">우리의 어프로치는 우리 서비스가 가지고 있는 legacy와 historical design decision을 존중하되 앞으로 나아가는 것 이었습니다.</div>
+    </div>
+
+    <div id="approachNewKeywordImage"> 
+        <img src="./imageFolder/LDS/movingForwardTest.gif" id="movingForwardGif">
+        <div id="approachNewKeywordImage__circle"></div>
+        
+    </div>
+    
+</div>
+
+
+
+
+<!--Design Objectives-->
+
+<div class="spacingXL"></div>
+<div class="spacingS"></div>
+
+<div class="objectivesNew">
+
+    <h1>Design Objective</h1>
+    <div class="spacingL"></div>
+
+</div>
+
+<!--Objective keywords-->
+<div class="objectiveKeywordNew">
+
+    <div class="objectiveKeywordNew__grid">
+
+        <div class="objectiveKeywordNew__grid__01"> 
+            <img src="./imageFolder/NewDesign/LDS-Image-08-b.svg" class="keyWordSVG">
+            <div class="spacingS"></div>
+            <p class="keywordTypoOption">Rethink Service<br>
+            Identity</p>
+            <p class="caption">
+                기존 유저가 기대하는 라인의 이미지를<br>
+                해치지 않는 선에서 서비스 전반에 걸친 <br>
+                시각적인 아이덴티티 요소 재구성</p>
+        </div>
+
+        <div class="objectiveKeywordNew__grid__02"> 
+
+            <img src="./imageFolder/NewDesign/LDS-Image-08-c.svg" class="keyWordSVG">
+            <div class="spacingS"></div>
+            <p class="keywordTypoOption"> Immersive Contents<br>
+            Experience</p>
+            <p class="caption">
+                기본 구성요소의 가독성, 인지성등을 개선.<br>
+                불필요한 디자인 요소를 배제하고 컨텐츠<br>
+                영역을 확장하여 컨텐츠 몰입 경험 향상</p>
+
+        </div>
+
+           
+        
+
+        <div class="objectiveKeywordNew__grid__03"> 
+
+            <img src="./imageFolder/NewDesign/LDS-Image-08-a.svg" class="keyWordSVG">
+            <div class="spacingS"></div>
+            <p class="keywordTypoOption">Provide Consistent<br>
+            User Interface</p>
+            <p class="caption">
+                해당 프로젝트의 결과물을 디자인 시스템에 <br>
+                공헌하는 동시에 제품에 적용하여 파편화된 <br>
+                UI를 통일하고 제품 성능 향상 <br>
+
+         </div>
+
+
+                
+    </div>
+
+    <div class="spacingM"></div>
+
+
+    <div class="body678">
+        프로젝트의 Approach를 바탕으로 세 가지의 구체적인 디자인 오브젝티브를 선정하게 되었습니다.
+        개편에 대한 최종 결과물도 위의 세 가지 Objective에 따라 공유 하겠습니다. 
+    </div>
+
+    <div class="spacingXL"></div>
+    
+</div>
+
+
+<!--1. Rethink Service Identity-->
+
+<div class="objective01New">
+
+    <div class="objectives01New__01">
+
+        <div class="body678">
+          <h2>1. Rethink Service Identity</h2>
+          <div class="spacingM"></div>
+          <div class="spacingXS"></div>
+          <h3>Applying New Color and graphics</h3>
+          <div class="spacingS"></div>
+        </div>
+
+        <div>
+            <img src="./imageFolder/NewDesign/LDS-Image-09.png" class="image978">
+        </div>
+
+        <div class="body678">
+         <p>우리가 추구하는 브랜드 이미지 및 트렌드에 맞추어 재구성된 컬러, 타이포그래피, 아이콘, 일러스트레이션등
+             시각적인 요소를 서비스 전반에 걸쳐 적극적으로 녹여내었습니다. 이를 통해 제품에 대한 일관성 있는 인상을 만들고,
+             불필요한 레거시는 걷어낼 수 있었습니다.</p>
+        </div>
+
+        <div class="spacingL"></div>
+    
+    </div>
+
+
+    <div class="objectives01New__02">
+
+        <div class="body678">
+          <h3>Chatroom</h3>
+          <div class="spacingS"></div>
+        </div>
+
+        <div class="objectives01New__02__01">
+            <img src="./imageFolder/NewDesign/LDS-Image-10.png" class="image978">
+        </div>
+
+        <div class="body678">
+            <p>채팅방은 기존의 느낌을 그대로 가져가되, 채팅방 영역 외에 사용되는 새로운 그린 컬러 및
+                비주얼 요소들과 잘 어우러질 수 있도록 전반적인 밸런스를 맞추는 정도로 개편 했습니다. </p>
+        </div>
+
+
+
+        <div class="spacingL"></div>
+
+
+
+        <div class="objectives01New__02__02">
+            <img src="./imageFolder/NewDesign/LDS-Image-11.png" class="image978">
+        </div>
+
+        <div class="body678">
+            <p>대화는 유저가 라인을 사용하는 근본적인 이유이며, 버블은 대화의 핵심 요소입니다.
+                그렇기 때문에 버블에 대한 테스트도 심도 깊게 이루어졌습니다. 버블 꼬리 형태에만
+                10종이 넘는 테스트안이 있을 정도 였지요. 더 가독하기 좋게 버블의 형태 및 간격,
+                아바타의 크기등을 디테일하게 조정했고, 일관성 없이 사용되던 버블에 우리의
+                아이덴티티를 담아 통합할 수 있는 스타일을 제시했습니다. </p>
+        </div>
+
+
+
+        <div class="spacingL"></div>
+
+
+
+        <div class="objectives01New__02__03">
+            <img src="./imageFolder/NewDesign/LDS-Image-12.png" class="image978">
+        </div>
+
+        <div class="body678">
+            <p>버블뿐만 아니라 보이스 메세지, 그룹 초대, 인풋, 플러스메뉴등 채팅룸과 관련된
+                모든 UI에 변화를 녹여내어 전체적으로 우리의 아이덴티티를 그대로
+                이어가지만 더 나은 대화 경험을 할 수 있는 환경을 만들었습니다.</p>
+        </div>
+    
+
+        <div class="spacingL"></div>
+
+    </div>
+
+    
+</div>
+
+
+
+<!--2.Immersive Contents-->
+<div class="objective02New">
+
+
+
+    <div class="objectives02New__01">
+
+        <div class="body678">
+        <h2>2.Immersive Contents Experience</h2>
+        <div class="spacingM"></div>
+        <h3>Enhance Readability</h3>
+        <div class="spacingS"></div>
+        </div>
+
+        
+        <div>
+            <img src="./imageFolder/NewDesign/LDS-Image-13.png" class="image978">
+        </div>
+
+        <div class="body678">
+            <p>프로덕트에 사용되는 모든 타이포그라피와 컬러의 접근성을 검수하는 과정을 거쳤고,
+                가독성이 낮은 부분은 더 잘 보이게 조정하여 컨텐츠 몰입경험을 향상 시켰습니다.</p>
+        </div>
+    
+
+        <div class="spacingL"></div>
+
+    </div>
+
+
+    <div class="objectives02New__02">
+
+        <div class="body678">
+            <h3>중요한것 더 드러내는 UI</h3>
+            <div class="spacingS"></div>
+        </div>
+
+
+        <div class="objectives02New__02__01">
+            <img src="./imageFolder/NewDesign/LDS-Image-14.png" class="image978">
+        </div>
+
+        <div class="body678">
+            <p>UI의 배치나 구성의 변경이 필요한 부분은 의사 결정을 내리는데 Event 수치를
+                기반으로 했습니다. </p>
+        </div>
+
+
+        <div class="spacingL"></div>
+
+
+        <div class="objectives02New__02__02">
+            <img src="./imageFolder/NewDesign/LDS-Image-15.png" class="image978">
+        </div>
+
+        <div class="body678">
+        <p>유저가 잘 사용하는 요소들이 더 잘 보이게 일반적인 시선의 흐름에 따라 배치하고,
+            동시에 불필요한 공간을 삭제하여 더 많은 컨텐츠를 일목요연하게 노출할 수 있도록 하였습니다.</p>
+        </div>
+
+        <div class="spacingL"></div>
+
+
+    </div>
+
+
+    
+</div>
+
+
+
+
+<!--3.Consistency-->
+<div class="objective03New">
+
+
+
+    <div class="objectives03New__01">
+
+        <div class="body678">
+            <h2>Consistency</h2>
+            <div class="spacingS"></div>
+        </div>
+        <!--
+        <div>
+            <img src="./imageFolder/NewDesign/LDS-Image-16.png" class="image978">
+        </div>
+
+        <div class="body678">
+            <p>탭별로 상이하게 사용되고 있던 컴포넌트나 컨텐츠 모듈 스타일은 디자인 시스템 가이드를 기반으로 통일하여 일관성을 부여했습니다.</p>
+        </div>
+
+        <div class="spacingL"></div>
+
+        -->
+
+
+        <div>
+            <img src="./imageFolder/NewDesign/LDS-Image-17.png" class="image978">
+        </div>
+
+        <div class="body678">
+            <p>Line Design System에서 미리 정의된 컴포넌트를 디자인 개편안에 적용 시키기도 하고
+                반대로 New Design Project에서 생성 혹은 수정된 디자인을 LDS로 Contribute하기도 하는 구조로
+                파편화되어 있던 UI를 하나로 통합 시켰습니다.
+                이제 탭마다 다른 서비스에 진입하는 것 같았던 기존의 디자인과 달리 어느 페이지에서든
+                이질감 없이 하나의 서비스로 보이게 되었습니다. </p>
+        </div>
+    
+        <div class="spacingL"></div>
+
+    </div>
+
+
+    
+</div>
+
+
+
+<!--Final Screens-->
+<div class="finalScreensNew">
+
+    <div class="body678">
+        <h1>Final Screens</h1>
+        <div class="spacingM"></div>
+    </div>
+
+    <div class="finalScreenNew__1row">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-01.png" class="finalScreenImage">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-02.png" class="finalScreenImage">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-03.png" class="finalScreenImage">
+    </div>
+
+    <div class="finalScreenNew__1row">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-04.png" class="finalScreenImage">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-05.png" class="finalScreenImage">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-06.png" class="finalScreenImage">
+    </div>
+
+    <div class="finalScreenNew__1row">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-07.png" class="finalScreenImage">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-08.png" class="finalScreenImage">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-09.png" class="finalScreenImage">
+    </div>
+
+    <div class="finalScreenNew__1row">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-10.png" class="finalScreenImage">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-11.png" class="finalScreenImage">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-12.png" class="finalScreenImage">
+    </div>
+
+    <div class="finalScreenNew__1row">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-13.png" class="finalScreenImage">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-14.png" class="finalScreenImage">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-15.png" class="finalScreenImage">
+    </div>
+
+    <div class="finalScreenNew__1row">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-16.png" class="finalScreenImage">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-17.png" class="finalScreenImage">
+        <img src="./imageFolder/NewDesign/finalScreens/ND-final-screen-18.png" class="finalScreenImage">
+    </div>
+
+    <div class="body678">
+        <p>새로운 모습의 라인은 <a href="https://apps.apple.com/kr/app/%EB%9D%BC%EC%9D%B8-line/id443904275"><u>앱스토어(Link)</u></a>
+            를 통해 서비스를 실제로 설치하여 확인 하실 수 있습니다. (2021년 기준으로 일부 화면은 적용 준비중 입니다.)</p>
+    </div>
+
+    <div class="spacingL"></div>
+    
+</div>
+
+
+
+
+<!--Promotion Video-->
+<div class="promotionVideoNew">
+
+<div class="body678" id="videoDescription">
+    Realse on 2020 July<br>
+    Promotion video
+</div>
+
+<div class="spacingS"></div>
+
+<div id="promotionVideoGif">
+    <img src="./imageFolder/NewDesign/prVideo.gif" class="image978" id="promotionVideo">
+</div>
+
+<div class="spacingS"></div>
+
+
+    
+</div>
+
+
+
+<!--Feedback-->
+<div class="feedback">
+
+    <div class="spacingL"></div>
+
+    <div class="body678">
+        <h1>Feedbacks</h1>
+        <div class="spacingM"></div>
+    </div>
+
+    <div class="feedbackDonutGraph">
+
+        <div class="donut_1row">
+            <img src="./imageFolder/NewDesign/graph01.png" class="donutImage">
+            <img src="./imageFolder/NewDesign/graph02.png" class="donutImage">
+            <img src="./imageFolder/NewDesign/graph03.png" class="donutImage">
+        </div>
+
+    </div>
+
+
+    <div class="body678">
+        릴리즈 이후 진행된 서베이에서 일차원적으로 텍스트나 아이콘이 더 잘 인지된다는 답변은 물론 복합적인 화면에서도 컨텐츠가 더 몰입도 있게 가독 된다는 피드백을 얻을 수 있었습니다. 
+    </div>
+
+
+    <div class="spacingL"></div>
+
+    <div>
+        <img src="./imageFolder/NewDesign/graph04.png" class="image678">
+    </div>
+
+    <div class="body678">
+        라인을 대표하는 키워드에 대한 응답 또한 변화했습니다. 기존 복잡함, 무거움으로 대변되던 라인의 이미지는 가벼움, 심플함, 모던함으로 변화했습니다. 우리가 의도했던것 처럼 복잡함을 걷어내며 컨텐츠를 잘 가독할 수 있는 환경을 만드는 동시에 유저들에게 크게 거부감 없는, ‘라인 스러운’ 디자인 개편을 진행할 수 있었다는 관점에서 우리의 컨셉과 목표가 달성되었음을 확인할 수 있었습니다.
+    </div>
+
+    
+</div>
+
+
+
+
+<div class="spacingXXL"></div>
+
+
+
+
+<!--IndexBottom-->
+
+<div class="indexBottom">
+    
+    <div class="indexBottom__left">
+        <p class="indexBottomFont">Index</p>
+    </div>
+
+    <div class="indexBottom__right">
+        <ul>
+            <li>
+            <p class="indexBottomFont">Home</p>
+            </li>
+
+
+
+            <li>
+                <a href="01PDS.html">
+                    <p class="indexBottomFont">ProtoPie Design System</p>
+                </a>
+            </li>
+
+
+            <li>
+                <a href="02NewDesign.html">
+                    <p class="indexBottomFont__selected">Line New Design Project</p>
+                </a>
+            </li>
+
+
+            <li>
+                <a href="03LDS.html">
+                    <p class="indexBottomFont">Line Design System</p>
+                </a>
+            </li>
+
+
+            <li>
+                <a href="04ProfileHome.html">
+                     <p class="indexBottomFont">Line Profile Home</p>
+                </a>
+            </li>
+
+        </ul>
+
+
+    </div>
+
+    <div class="spacingM"></div>
+</div>
+
+
+<div class="spacingM"></div>
+
